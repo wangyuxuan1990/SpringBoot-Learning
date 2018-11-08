@@ -1,6 +1,6 @@
 # Spring Boot整合MyBatis
 
-####pom.xml中引入依赖：
+#### pom.xml中引入依赖：
 
 - 这里用到spring-boot-starter基础和spring-boot-starter-test用来做单元测试验证数据访问
 - 引入连接mysql的必要依赖mysql-connector-java
