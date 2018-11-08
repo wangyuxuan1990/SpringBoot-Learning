@@ -44,15 +44,15 @@ public class Chapter328ApplicationTests {
         Assert.assertEquals(30, userMapper.findByName("ethanwong").getAge().intValue());
 
         Map<String, Object> map = new HashMap<>();
-        map.put("name","wangyuxuan");
-        map.put("age",28);
+        map.put("name", "wangyuxuan");
+        map.put("age", 28);
         userMapper.insertByMap(map);
         Assert.assertEquals(28, userMapper.findByName("wangyuxuan").getAge().intValue());
 
         List<User> userList = userMapper.findAll();
-        for (User u : userList){
-            Assert.assertEquals(null,u.getId());
-            Assert.assertNotEquals(null,u.getName());
+        for (User u : userList) {
+            Assert.assertEquals(null, u.getId());
+            Assert.assertNotEquals(null, u.getName());
         }
 
     }
