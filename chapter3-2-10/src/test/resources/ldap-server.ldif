@@ -1,0 +1,18 @@
+dn: dc=wangyuxuan,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=wangyuxuan,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=ben,ou=people,dc=wangyuxuan,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: ethanwong
+sn: wangyuxuan
+uid: ethanwong
+userPassword: {SHA}nFCebWjxfaLbHHG1Qk5UU4trbvQ=
