@@ -1,0 +1,9 @@
+# Spring Boot中使用log4j实现http请求日志入mongodb
+
+思路：log4j提供的输出器实现自Appender接口，要自定义appender输出到MongoDB，只需要继承AppenderSkeleton类，并实现几个方法即可完成。
+
+补充：
+
+我们可以通过jdbc实现日志记录到mongodb，也可以通过spring-data-mongo来记录到mongodb，当然我们也可以输出到其他数据库，或者输出到消息队列等待其他后续处理等。
+
+对于日志记录到mongodb，也可以直接使用log4mongo实现更为方便快捷。
