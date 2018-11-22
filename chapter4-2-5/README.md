@@ -16,7 +16,7 @@ management.security.enabled=false
 }
 ```
 
-发送GET请求到/loggers/com.didispace端点，来查看当前的日志级别设置：
+发送GET请求到/loggers/com.wangyuxuan端点，来查看当前的日志级别设置：
 
 ```json
 {
